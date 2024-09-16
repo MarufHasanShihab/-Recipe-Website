@@ -4,18 +4,22 @@
 
 Google font
 
-``` html
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&family=DM+Serif+Display&display=swap"
-  rel="stylesheet">
+```html
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link
+  href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&family=DM+Serif+Display&display=swap"
+  rel="stylesheet"
+/>
 ```
 
 Material icon
 
-``` html
-<link rel="stylesheet"
-    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0..1,0" />
+```html
+<link
+  rel="stylesheet"
+  href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0..1,0"
+/>
 ```
 
 ---
@@ -24,14 +28,14 @@ Material icon
 
 ### Colors
 
-``` css
+```css
 --white: hsl(0, 0%, 100%);
 --overlay-bg: hsla(0, 3%, 13%, 0.5);
 ```
 
 Light colors
 
-``` css
+```css
 --light-background: hsl(0, 0%, 96%);
 --light-on-background: hsl(0, 3%, 13%);
 --light-on-background-variant: hsl(20, 3%, 19%);
@@ -50,9 +54,9 @@ Light colors
 --light-alpha-20: hsla(0, 0%, 0%, 0.2);
 ```
 
-Light colors
+Dark colors
 
-``` css
+```css
 --dark-background: hsl(0, 0%, 10%);
 --dark-on-background: hsl(11, 3%, 87%);
 --dark-on-background-variant: hsl(11, 3%, 81%);
@@ -75,14 +79,14 @@ Light colors
 
 Font family
 
-``` css
---font-primary: 'DM Serif Display', serif;
---font-secondary: 'DM Sans', sans-serif;
+```css
+--font-primary: "DM Serif Display", serif;
+--font-secondary: "DM Sans", sans-serif;
 ```
 
 Font size
 
-``` css
+```css
 --fs-base: 62.5%;
 --fs-display-large: 2.8rem;
 --fs-display-medium: 3.2rem;
@@ -99,14 +103,14 @@ Font size
 
 Font weight
 
-``` css
+```css
 --weight-regular: 400;
 --weight-medium: 500;
 ```
 
 ### Border Radius
 
-``` css
+```css
 --radius-4: 4px;
 --radius-8: 8px;
 --radius-circle: 50%;
@@ -115,14 +119,14 @@ Font weight
 
 ### Box Shadow
 
-``` css
+```css
 --shadow-1: 0 -1px 8px hsla(0, 0%, 0%, 0.2);
 --shadow-2: 0 2px 4px 1px hsla(0, 0%, 0%, 0.3);
 ```
 
 ### Others
 
-``` css
+```css
 --header-height: 64px;
 --mobile-nav-height: 80px;
 --section-gap: 32px;
@@ -130,7 +134,7 @@ Font weight
 
 ### Transition
 
-``` css
+```css
 --transition-timing-function: cubic-bezier(0.2, 0, 0, 1);
 --transition-short: 200ms var(--transition-timing-function);
 --transition-medium: 500ms var(--transition-timing-function);
