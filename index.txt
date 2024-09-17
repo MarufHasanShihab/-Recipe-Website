@@ -50,6 +50,7 @@ Search any recipe e.g: burger, pizza, sandwich, toast.
 
 
 #---------- TAB ----------#
+aria-label="Meal type"
 
 Breakfast
 Lunch
