@@ -65,13 +65,25 @@ Recipe name
 <span class="material-symbols-outlined" aria-hidden="true">schedule</span>
 2 minutes
 
+aria-label="Add to saved recipes"
+
 <span class="material-symbols-outlined bookmark-add" aria-hidden="true">bookmark_add</span>
 <span class="material-symbols-outlined bookmark" aria-hidden="true">bookmark</span>
 
 
+#---------- RECIPE SLIDER ----------#
+Latest Asian Recipes
+
+show more
+
+<span class="material-symbols-outlined" aria-hidden="true">navigate_next</span>
+
+Latest French Recipes
+
 
 
 #---------- TAG ----------#
+
 
 Choose your health preference.
 
@@ -128,17 +140,17 @@ Mustard-Free
 href = mollusk-free
 Mollusk-Free
 
-href = Mediterranean
+href = mediterranean
 Mediterranean
 
 href = lupine-free
 Lupine-Free
 
 href = low-sugar
-Low Sugar
+Low-Sugar
 
 href = low-potassium
-Low Potassium
+Low-Potassium
 
 href = kosher
 Kosher
@@ -164,7 +176,7 @@ Fish-Free
 href = egg-free
 Egg-Free
 
-href = DASH
+href = dASH
 DASH
 
 href = dairy-free
@@ -186,7 +198,7 @@ Alcohol-Cocktail
 
 #---------- FOOTER ----------#
 
-Copyright 2023 codewithsadee
+Copyright 2024 cook.io@gmail.com
 
 alt = Cook.io
 
