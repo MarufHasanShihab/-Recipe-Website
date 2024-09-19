@@ -597,6 +597,15 @@ main {
 }
 
 /* filter button */
+.btn-filter{
+  padding-inline: 12px;
+}
+
+.btn-filter .wrapper{
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
 
 /**
  * Input
@@ -686,6 +695,14 @@ main {
 /**
  * Badge
  */
+.badge{
+  background-color: var(--error);
+  color: var(--white);
+  height: 16px;
+  max-width: 16px;
+  padding-inline: 4px;
+  border-radius: var(--radius-pill);
+}
 
 /**
  * Skeleton
@@ -1106,6 +1123,63 @@ main {
   opacity: 1;
   pointer-events: all;
 }
+
+
+.recipe-container{
+  padding-block-end: 36px;
+}
+
+.recipe-container .grid-list{
+  position: relative;
+}
+
+.recipe-container .title-wrapper{
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-block-end: 16px;
+}
+
+.btn-filter.active{
+  position: fixed;
+  bottom: calc(var(--mobile-nav-height) + 16px);
+  right: 16px;
+  z-index: 1;
+  box-shadow: var(--shadow-2);
+  border-radius: var(--radius-8);
+  height: 48px;
+  padding-inline: 16px;
+  gap: 12px;
+  transition: none;
+  animation: btn-filter-active 200ms var(--transition-timing-function) forwards;
+}
+
+@keyframes btn-filter-active{
+  0%{
+    transform: scale(0.5);
+    opacity: 0;
+  }
+  100%{
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+.load-more{
+  position: relative;
+  margin-block-start: 8px;
+  align-items: center;
+}
+
+.info-text{
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  font-weight: var(--weight-medium);
+}
+
 
 /*-----------------------------------*\
   #DETAIL PAGE
