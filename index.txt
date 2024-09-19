@@ -264,7 +264,7 @@ aria-label = 1 or more hours
 
 
 <span class="material-symbols-outlined" aria-hidden="true">nutrition</span>
-Ingredients
+ingredients
 
 &lt; 5 ingredients
 value = 5
@@ -399,7 +399,7 @@ Lupine Free
 value = lupine-free
 
 Mediterranean
-value = Mediterranean
+value = mediterranean
 
 Mollusk Free
 value = mollusk-free
