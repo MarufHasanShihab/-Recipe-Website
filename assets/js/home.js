@@ -123,9 +123,7 @@ const addTabContent = (currentTabBtn, currentTabPanel) => {
       currentTabPanel.appendChild(gridList);
 
       currentTabPanel.innerHTML += `
-        <a href="./recipes.html?metaType${currentTabBtn.textContent
-          .trim()
-          .toLowerCase()}" class="btn btn-secondary label-large">Show more</a>
+        <a href="./recipes.html?mealType=${currentTabBtn.textContent.trim().toLocaleLowerCase()}" class="btn btn-secondary label-large">Show more</a>
         `;
     }
   );

@@ -58,7 +58,7 @@ document.body.appendChild(snackbarContainer);
 function showNotification(message){
   const snackbar = document.createElement("div"); 
   snackbar.classList.add("snackbar");
-  snackbar.innerHTML = ` <p class="body-medium">${message}/p>`
+  snackbar.innerHTML = ` <p class="body-medium">${message}</p>`
   snackbarContainer.appendChild(snackbar);
   snackbar.addEventListener("animationend", e=>{
     snackbarContainer.removeChild(snackbar)
