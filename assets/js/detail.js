@@ -3,7 +3,6 @@
  * Import
 */
 import { fetchData } from "./api.js";
-import { cardQueries, skeletonCard } from "./global.js";
 import { getTime } from "./module.js";
 
 /* 
